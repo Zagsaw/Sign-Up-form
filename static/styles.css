@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;;
+    font-weight: 500;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.picture-box {
+    background-image: url(lotus-bj.jpg);
+    background-size: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 32%;
+    text-align: center;
+}
+
+.logo-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    padding: 4vh 0;
+    margin-top: 34vh;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 5vh;
+    color: white;
+}
+
+.credit {
+    color: white;
+    margin-top: 45vh;
+    font-size: 13px;
+}
+
+.credit a {
+    color: white;
+    font-size: 13px;
+}
+
+.credit a:hover {
+    color: rgb(174, 110, 235);
+}
+
+.form-div {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex: 68%;
+    box-sizing: border-box;
+}
+
+.form-info {
+    margin-bottom: 3vh;
+    color: rgb(78, 0, 88);
+}
+
+.form-info p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 4vh;
+}
+
+.form-info .quote {
+    margin: 13vh 9vh 0vh;
+}
+
+.input {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width: 80vh;
+    margin: 0 auto;
+}
+
+.input input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.field {
+    flex: 1;
+    min-width: 45%;
+    margin: 5px;
+}
+
+.input > * input::placeholder {
+    font-size: 18px;
+    color: rgba(158, 4, 158, 0.6);
+}
+
+.input > * input {
+    border: rgba(158, 4, 178, 0.6) solid 2px;
+    color: rgb(114, 0, 129);
+    border-radius: 4px;
+}
+
+.input > * input:hover {
+    background-color: rgba(255, 231, 252, 0.87);
+    border: rgba(178, 4, 111, 0.6) solid 2px;
+    color: rgba(178, 4, 111, 0.6);
+    transition: .5s;
+}
+
+.input > * input:invalid {
+    background-color: rgba(255, 35, 35, 0.096);
+    color: rgba(209, 3, 3, 0.623);
+    border: red dashed 2px;
+}
+
+.input > * input:invalid::placeholder {
+    color: rgba(209, 3, 3, 0.623);
+}
+
+.input > * input:invalid:hover {
+    background-color: rgba(255, 35, 35, 0.199);
+}
+
+.form-root {
+    text-align: center;
+}
+
+.divider {
+    margin: 5vh auto;
+    border: rgba(158, 4, 158, 0.4) solid 2px;
+}
+
+.form-submit {
+    margin: 2vh auto;
+}
+
+.form-submit button {
+    padding: 1vh 1vh;
+    font-size: 2vh;
+    color: rgba(77, 1, 77, .9);
+    border: rgba(77, 1, 77, .6) solid 2px;
+    border-radius: 4px;
+    background-color:rgba(207, 45, 207, 0.4);
+}
+
+.form-submit button:hover {
+    transition: .5s;
+    background-color: rgba(207, 45, 207, 0.7);
+    color: rgb(48, 0, 48);
+    border: rgba(77, 1, 77, .9) solid 2px;
+    transform: scale(1.03);
+    box-shadow:0px 0px 8px 1px rgba(37, 0, 37, 0.397);
+}
+
+.form-submit button:active {
+    transform: scale(1.1);
+}
+
+.form-login, 
+a {
+    font-size: 2vh;
+    margin-top: 3vh;
+}
+
+.form-login a {
+    color: rgba(207, 45, 207);
+}

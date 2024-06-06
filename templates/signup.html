@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Sign-up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="picture-box">
+            <div class="logo-box">
+                <h2 class="logo">Root</h2>
+            </div>
+            <div>
+                <p class="credit">Background by drphuc on <a href="https://pixabay.com/photos/lotus-flower-nature-zen-plant-5292554/">Pixabay</a></p>
+            </div>
+        </div>
+        <div class="form-div">
+            <form>
+                <div class="form-info">
+                    <p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+                        ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Sign-up <i>now</i> to get started</p>
+                </div>
+                <div class="input">
+                    <div class="form-name field">
+                        <input id="name" placeholder="Name *" name="name" type="text" value=""
+                        pattern="^[^0-9]+$" maxlength="245" required>
+                    </div>
+                    <div class="form-surname field">
+                        <input id="surname" placeholder="Surname *" name="surname" type="text" value=""
+                        maxlength="245" required>
+                    </div>
+                    <div class="form-email field">
+                        <input id="email" placeholder="Email *" name="email" type="email" value=""
+                        maxlength="100" aria-describedby="email-notes" required>
+                    </div>
+                    <div class="form-phone field">
+                        <input id="phone" placeholder="Phone Number *" name="phone" type="tel" value=""
+                        maxlength="245" required>
+                    </div>
+                    <div class="form-password field">
+                        <input id="password" placeholder="Password *" name="password" type="password" value=""
+                        maxlength="245" required>
+                    </div>
+                    <div class="form-confirm field">
+                        <input id="confirm" placeholder="Confirm Password *" name="confirm" type="password" value=""
+                        maxlength="245" required>
+                    </div>
+                </div>
+                <div class="form-root">
+                    <hr class="divider">
+                    <div class="form-submit">
+                        <button>Create Account</button>
+                    </div>
+                    <p class="form-login">Already have an account? <a>Log In</a></p>
+                </div>
+            </form>
+        </div>
+</div>
+</body>
+</html>
